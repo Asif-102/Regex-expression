@@ -1,0 +1,25 @@
+.  -Any character Expect New line
+\d -Digit(0-9)
+\D -Not a Digit(0-9)
+\w -Word Character(a-z,A-Z,0-9,_) note:_ means under score
+\W -Not a word Character
+\s -Whitespace(space,tab,newline)
+\S -Not whitespace(space,tab,newline)
+\b -Word boundary
+\B -Not a word boundary
+^  -Beginning of a string
+$  -End of a string
+[] -Matches characters in brackets
+[^]-Matches characters Not in brackets
+|  -Either or 
+() -Group
+ note:a-z=lower case letter
+      A-Z=Upper case letter
+      
+Quantifiers:
+*    - 0 or more
++    - 1 or more
+?    - 0 or one
+{3}  - Exact Number
+{3,4}-Range of Numbers(Minimum,Maximum)
+
